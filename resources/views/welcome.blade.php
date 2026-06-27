@@ -47,10 +47,10 @@
         </a>
         <div class="hidden md:flex gap-8 text-sm font-medium">
             <a href="#" class="border-b-2 text-noir" style="border-color:#C9A84C">Accueil</a>
-            <a href="#" class="hover:text-yellow-600 text-noir">À Propos</a>
-            <a href="#" class="hover:text-yellow-600 text-noir">Nos Collections</a>
-            <a href="#" class="hover:text-yellow-600 text-noir">Actualités</a>
-            <a href="#" class="hover:text-yellow-600 text-noir">Contact</a>
+            <a href="a-propos" class="hover:text-yellow-600 text-noir">À Propos</a>
+            <a href="boutique" class="hover:text-yellow-600 text-noir">Nos Collections</a>
+            <a href="actualites" class="hover:text-yellow-600 text-noir">Actualités</a>
+            <a href="contact" class="hover:text-yellow-600 text-noir">Contact</a>
         </div>
         <div class="flex items-center gap-4">
             <span class="text-lg cursor-pointer">🇨🇮</span>
