@@ -36,3 +36,6 @@ Route::get('/panier', function () {
 Route::get('/commande', function () {
     return view('commande');
 })->name('commande');
+Route::get('/fiche-produit', function () {
+    return view('fiche-produit');
+})->name('fiche-produit');
