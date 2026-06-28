@@ -39,3 +39,10 @@ Route::get('/commande', function () {
 Route::get('/fiche-produit', function () {
     return view('fiche-produit');
 })->name('fiche-produit');
+Route::get('/collection/joyau-de-bla', function () {
+    return view('collection-joyau');
+})->name('collection-joyau');
+
+Route::get('/collection/do', function () {
+    return view('collection-do');
+})->name('collection-do');
