@@ -49,3 +49,6 @@ Route::get('/collection/do', function () {
 Route::get('/legal', function () {
     return view('legal');
 })->name('legal');
+Route::get('/admin', function () {
+    return view('admin');
+})->name('admin');
