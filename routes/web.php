@@ -46,3 +46,6 @@ Route::get('/collection/joyau-de-bla', function () {
 Route::get('/collection/do', function () {
     return view('collection-do');
 })->name('collection-do');
+Route::get('/legal', function () {
+    return view('legal');
+})->name('legal');

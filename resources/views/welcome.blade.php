@@ -300,8 +300,8 @@
     </div>
     <div class="border-t border-white/10 pt-6 text-center text-gray-400 text-xs">
         © 2026 Blac Joyaux. Tout droit réservé. &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Conditions générales</a>
+        <a href="legal" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
+        <a href="legal" class="hover:text-orange-400">Conditions générales</a>
     </div>
 </footer>
 
