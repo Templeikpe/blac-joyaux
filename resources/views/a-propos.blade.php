@@ -49,8 +49,9 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
                 <p class="text-sm leading-relaxed" style="color:#3D2314">
-                    <span class="font-bold">Blac Joyaux</span> est une marque ivoirienne de maroquinerie qui allie héritage culturel, élégance et savoir-faire local.<br><br>
-                    À travers des créations inspirées de la poupée Joyaux de Bla, nous proposons des sacs pensés pour accompagner le quotidien avec style et authenticité.
+                    <span class="font-bold">Blac Joyaux</span> c'est une Marque de maroquinerie ivoirienne avec savoir réaffirmer féminité la région centrale de la Côte d'Ivoire.<br><br>
+                    Son but est de participer à la valorisation du savoir créatif en Côte d'Ivoire et au-delà en proposant des sacs à main made in Côte d'Ivoire, accessibles et qui répondent aux besoins du marché actuel.<br><br>
+                    Au quotidien, adoptez Blac Joyaux et donnez une fière allure à votre style.
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-3">
@@ -66,16 +67,16 @@
 <!-- LES SYMBOLES -->
 <section class="py-10 px-6 bg-white">
     <div class="max-w-5xl mx-auto">
-        <p class="text-center font-semibold mb-6" style="color:#E8820C">Nos collections</p>
-        <h2 class="text-2xl font-bold text-center mb-8" style="color:#3D2314">Les symboles de Blac Joyaux</h2>
+        <p class="text-center font-semibold mb-2" style="color:#E8820C">Nos collections</p>
+        <h2 class="text-xl font-bold text-center mb-8" style="color:#3D2314">Les symboles de Blac Joyaux</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="rounded-xl p-6 text-center" style="background:#F5ECD7">
-                <h3 class="font-bold mb-2" style="color:#3D2314">Le Joyaux de Bla</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Collection centrale de la marque inspirée de la poupée de fécondité ashanti.</p>
+                <h3 class="font-bold mb-2" style="color:#3D2314">Le Joyau de Bla</h3>
+                <p class="text-xs text-gray-500 leading-relaxed">Collection centrale de la marque inspirée du poupée ashanti.</p>
             </div>
             <div class="rounded-xl p-6 text-center" style="background:#F5ECD7">
-                <h3 class="font-bold mb-2" style="color:#3D2314">Le Monogramme DO</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Le monogramme à qui la prominence donne de la Côte d'Ivoire.</p>
+                <h3 class="font-bold mb-2" style="color:#3D2314">Le monogramme DO</h3>
+                <p class="text-xs text-gray-500 leading-relaxed">Un hommage marquant la première dame de la Côte d'Ivoire.</p>
             </div>
         </div>
     </div>
@@ -90,10 +91,13 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
                 <p class="text-sm leading-relaxed mb-4" style="color:#3D2314">
-                    <span class="font-bold">Blac Joyaux</span> est née de la volonté de valoriser le patrimoine <span class="font-bold" style="color:#E8820C">ivoirien</span> à travers une maroquinerie contemporaine.
+                    <span class="font-bold">Blac Joyaux</span> naît d'une intime conviction : la Côte d'Ivoire a autant de savoirs créatifs qui méritent d'être valorisés.
                 </p>
                 <p class="text-sm leading-relaxed mb-4" style="color:#3D2314">
-                    Chaque création associe héritage, qualité et élégance, pour offrir bien plus qu'un sac : une histoire à porter.
+                    De cet élan naît le projet suivant : créer une maroquinerie qui incarne notre histoire, celle de la productivité, de l'héritage, de la résilience, des traditions africaines.
+                </p>
+                <p class="text-sm leading-relaxed" style="color:#3D2314">
+                    Chaque sac raconte une ambition, un savoir-faire unique, esthétique et durable, tout en célébrant notre riche culture.
                 </p>
             </div>
             <div class="rounded-2xl overflow-hidden shadow-xl">
@@ -111,27 +115,27 @@
         <div class="grid grid-cols-2 md:grid-cols-2 gap-6">
 
             <div class="bg-white rounded-xl p-6 text-center">
-                <p class="text-3xl mb-3">⭐</p>
+                <p class="text-3xl mb-3">👑</p>
                 <h3 class="font-bold text-sm mb-2" style="color:#3D2314">1. Héritage culturel ivoirien</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Des créations ancrées dans la richesse de la poupée Joyaux de Bla, symbole culturel de transmission.</p>
+                <p class="text-xs text-gray-500 leading-relaxed">Des créations inspirées de la poupée Joyaux de Bla, symbole d'élégance et de transmission.</p>
             </div>
 
             <div class="bg-white rounded-xl p-6 text-center">
                 <p class="text-3xl mb-3">🧡</p>
                 <h3 class="font-bold text-sm mb-2" style="color:#3D2314">2. Savoir-faire artisanal</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Des sacs confectionnés avec soin par nos artisans locaux qui ont appris auprès des meilleurs.</p>
+                <p class="text-xs text-gray-500 leading-relaxed">Des sacs confectionnés avec des matières de qualité et un savoir-faire approuvé par nos artisans.</p>
             </div>
 
             <div class="bg-white rounded-xl p-6 text-center">
                 <p class="text-3xl mb-3">⭐</p>
                 <h3 class="font-bold text-sm mb-2" style="color:#3D2314">3. Qualité & confiance</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Des produits solides et accompagnement personnalisé pour accompagner nos clientes partout en Côte d'Ivoire.</p>
+                <p class="text-xs text-gray-500 leading-relaxed">Des produits durables, un accompagnement personnalisé une rapide réponse de la Côte d'Ivoire.</p>
             </div>
 
             <div class="bg-white rounded-xl p-6 text-center">
                 <p class="text-3xl mb-3">🧡</p>
                 <h3 class="font-bold text-sm mb-2" style="color:#3D2314">4. Élégance au quotidien</h3>
-                <p class="text-xs text-gray-500 leading-relaxed">Des créations pensées pour accompagner la femme ivoirienne dans toutes ses circonstances d'exception.</p>
+                <p class="text-xs text-gray-500 leading-relaxed">Des créations pensées pour accompagner avec style le quotidien et les moments d'exception.</p>
             </div>
 
         </div>
@@ -185,8 +189,8 @@
     </div>
     <div class="border-t border-white/10 pt-6 text-center text-gray-400 text-xs">
         © 2026 Blac Joyaux. Tout droit réservé. &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Conditions générales</a>
+        <a href="/legal" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
+        <a href="/legal" class="hover:text-orange-400">Conditions générales</a>
     </div>
 </footer>
 
