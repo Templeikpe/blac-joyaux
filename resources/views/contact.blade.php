@@ -48,41 +48,43 @@
 
         <!-- Icône + titre -->
         <div class="text-center mb-8">
-            <div class="text-5xl mb-3">💬</div>
+            <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center text-3xl mb-3 shadow-sm">
+                💬
+            </div>
             <h1 class="text-2xl font-bold" style="color:#E8820C">Contact</h1>
         </div>
 
         <!-- Infos + réseaux -->
-        <div class="grid grid-cols-2 gap-3 mb-8">
+        <div class="grid grid-cols-2 gap-3 mb-10">
 
             <!-- Colonne gauche : infos -->
             <div class="flex flex-col gap-3">
                 <div class="bg-white rounded-xl p-4 flex items-start gap-3">
-                    <span class="text-xl">🏠</span>
+                    <i class="fas fa-house text-lg mt-1" style="color:#3D2314"></i>
                     <div>
                         <p class="font-semibold text-xs mb-1" style="color:#3D2314">Marque</p>
                         <p class="text-xs text-gray-500">Blac Joyaux</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl p-4 flex items-start gap-3">
-                    <span class="text-xl">📍</span>
+                    <i class="fas fa-location-dot text-lg mt-1" style="color:#3D2314"></i>
                     <div>
                         <p class="font-semibold text-xs mb-1" style="color:#3D2314">Localisation</p>
-                        <p class="text-xs text-gray-500">Côte d'Ivoire – Commune de Cocody<br>Rond-point de la Riviera Palmeraie</p>
+                        <p class="text-xs text-gray-500">Côte d'Ivoire - Commune de Cocody<br>Rond-point de la Riviera Palmeraie</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl p-4 flex items-start gap-3">
-                    <span class="text-xl">🕐</span>
+                    <i class="fas fa-clock text-lg mt-1" style="color:#3D2314"></i>
                     <div>
                         <p class="font-semibold text-xs mb-1" style="color:#3D2314">Horaires</p>
                         <p class="text-xs text-gray-500">Lundi au samedi, de 09h00 à 18h00</p>
                     </div>
                 </div>
                 <div class="bg-white rounded-xl p-4 flex items-start gap-3">
-                    <span class="text-xl">📞</span>
+                    <i class="fas fa-phone text-lg mt-1" style="color:#3D2314"></i>
                     <div>
-                        <p class="font-semibold text-xs mb-1" style="color:#3D2314">Téléphone</p>
-                        <p class="text-xs text-gray-500">+225 0700775537<br>+225 0564542215</p>
+                        <p class="font-semibold text-xs mb-1" style="color:#3D2314">Telephone</p>
+                        <p class="text-xs text-gray-500">+225 0700771557<br>+225 0545452215</p>
                     </div>
                 </div>
             </div>
@@ -90,19 +92,19 @@
             <!-- Colonne droite : réseaux -->
             <div class="flex flex-col gap-3">
                 <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
-                    <span class="text-xl">📸</span>
+                    <i class="fab fa-instagram text-lg" style="color:#E1306C"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
                 <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
-                    <span class="text-xl">🎵</span>
+                    <i class="fab fa-tiktok text-lg" style="color:#000"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
                 <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
-                    <span class="text-xl">📘</span>
+                    <i class="fab fa-facebook" style="color:#1877F2"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
                 <a href="https://wa.me/2250700775537" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
-                    <span class="text-xl">💬</span>
+                    <i class="fab fa-whatsapp text-lg" style="color:#25D366"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Discutez sur Whatsapp</p>
                 </a>
             </div>
@@ -111,27 +113,27 @@
 
         <!-- Formulaire -->
         <div>
-            <h2 class="text-lg font-bold mb-6 text-center" style="color:#3D2314">Laissez-nous un message</h2>
+            <h2 class="text-lg font-bold mb-6" style="color:#3D2314">Laissez-nous un message</h2>
 
             <div class="space-y-4">
                 <div>
-                    <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Nom et Prénom</label>
+                    <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Nom et Prenoms</label>
                     <input type="text" placeholder="Tapez ici..."
                            class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400"
-                           style="background:#fff">
+                           style="background:#F5ECD7">
                 </div>
                 <div>
                     <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Adresse mail</label>
                     <input type="email" placeholder="Tapez ici..."
                            class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400"
-                           style="background:#fff">
+                           style="background:#F5ECD7">
                 </div>
                 <div>
                     <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Message</label>
                     <textarea placeholder="Entrez votre message ici..."
                               rows="6"
                               class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400 resize-none"
-                              style="background:#fff"></textarea>
+                              style="background:#F5ECD7"></textarea>
                 </div>
                 <button class="w-full text-white font-semibold py-4 rounded-xl text-sm hover:opacity-90 transition"
                         style="background:#3D2314">
@@ -173,10 +175,10 @@
         <div>
             <h4 class="font-semibold mb-4 uppercase text-xs tracking-widest" style="color:#E8820C">Réseaux sociaux</h4>
             <div class="flex gap-3 mb-3 text-lg">
-                <a href="#" class="hover:text-orange-400">📸</a>
-                <a href="#" class="hover:text-orange-400">🎵</a>
-                <a href="#" class="hover:text-orange-400">📘</a>
-                <a href="#" class="hover:text-orange-400">💬</a>
+                <a href="#" class="hover:text-orange-400"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-orange-400"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="hover:text-orange-400"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="hover:text-orange-400"><i class="fab fa-whatsapp"></i></a>
             </div>
             <p class="text-xs text-gray-300">
                 <span style="color:#E8820C">Showroom Blac Joyaux</span><br>
@@ -190,8 +192,8 @@
     </div>
     <div class="border-t border-white/10 pt-6 text-center text-gray-400 text-xs">
         © 2026 Blac Joyaux. Tout droit réservé. &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
-        <a href="#" class="hover:text-orange-400">Conditions générales</a>
+        <a href="/legal" class="hover:text-orange-400">Confidentialité</a> &nbsp;|&nbsp;
+        <a href="/legal" class="hover:text-orange-400">Conditions générales</a>
     </div>
 </footer>
 
