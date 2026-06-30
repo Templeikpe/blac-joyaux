@@ -119,20 +119,20 @@
                 <div>
                     <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Nom et Prenoms</label>
                     <input type="text" placeholder="Tapez ici..."
-                           class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400"
+                           class="w-full px-4 py-3 rounded-xl border border-gray-800 text-sm outline-none focus:border-orange-400"
                            style="background:#F5ECD7">
                 </div>
                 <div>
                     <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Adresse mail</label>
                     <input type="email" placeholder="Tapez ici..."
-                           class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400"
+                           class="w-full px-4 py-3 rounded-xl border border-gray-800 text-sm outline-none focus:border-orange-400"
                            style="background:#F5ECD7">
                 </div>
                 <div>
                     <label class="text-xs font-medium mb-1 block" style="color:#3D2314">Message</label>
                     <textarea placeholder="Entrez votre message ici..."
                               rows="6"
-                              class="w-full px-4 py-3 rounded-xl border border-gray-200 text-sm outline-none focus:border-orange-400 resize-none"
+                              class="w-full px-4 py-3 rounded-xl border border-gray-800 text-sm outline-none focus:border-orange-400 resize-none"
                               style="background:#F5ECD7"></textarea>
                 </div>
                 <button class="w-full text-white font-semibold py-4 rounded-xl text-sm hover:opacity-90 transition"
