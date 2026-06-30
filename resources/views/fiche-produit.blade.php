@@ -84,20 +84,20 @@
             </div>
 
             <!-- Couleurs -->
-            <!-- Couleurs -->
+           <!-- Couleurs -->
 <div class="flex gap-3 mb-6">
-    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80')"
-            class="couleur-btn w-8 h-8 rounded-full border-2 transition-all active"
-            style="background:#1A1A1A;border-color:#3D2314" title="Noir"></button>
     <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80')"
+            class="couleur-btn w-8 h-8 rounded-full border-2 transition-all active"
+            style="background:#DC143C;border-color:#3D2314" title="Rouge"></button>
+    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80')"
             class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
-            style="background:#8B4513" title="Marron"></button>
+            style="background:#1A1A1A" title="Noir"></button>
     <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80')"
             class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
-            style="background:#DC143C" title="Rouge"></button>
+            style="background:#FF6B00" title="Orange"></button>
     <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=80')"
             class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
-            style="background:#FFB6C1" title="Rose"></button>
+            style="background:#9B30FF" title="Violet"></button>
 </div>
 
             <!-- Description -->
