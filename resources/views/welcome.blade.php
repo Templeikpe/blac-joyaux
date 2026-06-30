@@ -9,11 +9,12 @@
     <style>
         body { font-family: 'Poppins', sans-serif; }
         .hero-bg {
-            background-image: linear-gradient(rgba(61,35,20,0.65), rgba(61,35,20,0.65)),
-                              url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=1400&q=80');
-            background-size: cover;
-            background-position: center;
-        }
+    background-image: linear-gradient(rgba(61,35,20,0.65), rgba(61,35,20,0.65)),
+                      url('https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=1400&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 90vh;
+}
         .product-card { transition: all 0.3s ease; }
         .product-card:hover { transform: translateY(-4px); }
         details summary::-webkit-details-marker { display: none; }

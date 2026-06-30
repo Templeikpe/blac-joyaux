@@ -84,12 +84,21 @@
             </div>
 
             <!-- Couleurs -->
-            <div class="flex gap-3 mb-6">
-                <button class="w-7 h-7 rounded-full border-2 border-gray-800" style="background:#1A1A1A" title="Noir"></button>
-                <button class="w-7 h-7 rounded-full border-2 border-gray-300" style="background:#8B4513" title="Marron"></button>
-                <button class="w-7 h-7 rounded-full border-2 border-gray-300" style="background:#DC143C" title="Rouge"></button>
-                <button class="w-7 h-7 rounded-full border-2 border-gray-300" style="background:#FFB6C1" title="Rose"></button>
-            </div>
+            <!-- Couleurs -->
+<div class="flex gap-3 mb-6">
+    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80')"
+            class="couleur-btn w-8 h-8 rounded-full border-2 transition-all active"
+            style="background:#1A1A1A;border-color:#3D2314" title="Noir"></button>
+    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80')"
+            class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
+            style="background:#8B4513" title="Marron"></button>
+    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800&q=80')"
+            class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
+            style="background:#DC143C" title="Rouge"></button>
+    <button onclick="changeCouleur(this, 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&q=80')"
+            class="couleur-btn w-8 h-8 rounded-full border-2 border-gray-300 transition-all"
+            style="background:#FFB6C1" title="Rose"></button>
+</div>
 
             <!-- Description -->
             <div class="mb-4">
@@ -258,6 +267,15 @@ function changeQty(val) {
     let qty = parseInt(document.getElementById('qty').textContent);
     qty = Math.max(1, qty + val);
     document.getElementById('qty').textContent = qty;
+}
+function changeCouleur(btn, imgSrc) {
+    document.querySelectorAll('.couleur-btn').forEach(b => {
+        b.style.borderColor = '#d1d5db';
+        b.style.transform = 'scale(1)';
+    });
+    btn.style.borderColor = '#3D2314';
+    btn.style.transform = 'scale(1.15)';
+    document.getElementById('main-img').src = imgSrc;
 }
 </script>
 
