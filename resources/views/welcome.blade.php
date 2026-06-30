@@ -36,7 +36,7 @@
         </div>
         <div class="flex items-center gap-3">
             <span class="text-lg">🇨🇮</span>
-            <a href="#" style="color:#3D2314">👤</a>
+            <a href="admin" style="color:#3D2314">👤</a>
         </div>
     </div>
 </nav>
