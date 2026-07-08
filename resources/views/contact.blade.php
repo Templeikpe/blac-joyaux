@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact — Blac Joyaux</title>
+    <title>Contact Blac Joyaux | Showroom et Service Client</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -18,7 +18,11 @@
         <button id="menuBtn" class="border border-gray-500 w-9 h-9 flex justify-center items-center hover:bg-gray-100 transition">
             <i class="fas fa-bars"></i>
         </button>
-        <a href="/" class="absolute left-1/2 -translate-x-1/2 font-bold text-3xl" style="color:#3D2314">Blac Joyaux</a>
+        <a href="/"
+   class="absolute left-1/2 -translate-x-1/2 text-4xl font-extrabold text-black"
+   style="font-family: Arial, sans-serif;">
+    Blac Joyaux
+</a>
         <div class="flex items-center gap-5 text-xl">
             <a href="/panier"><i class="fas fa-shopping-cart cursor-pointer"></i></a>
             <i class="fas fa-search cursor-pointer"></i>

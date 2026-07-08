@@ -69,7 +69,11 @@ $actualites = [
         <button id="menuBtn" class="border border-gray-500 w-9 h-9 flex justify-center items-center hover:bg-gray-100 transition">
             <i class="fas fa-bars"></i>
         </button>
-        <a href="/" class="absolute left-1/2 -translate-x-1/2 font-bold text-3xl" style="color:#3D2314">Blac Joyaux</a>
+        <a href="/"
+   class="absolute left-1/2 -translate-x-1/2 text-4xl font-extrabold text-black"
+   style="font-family: Arial, sans-serif;">
+    Blac Joyaux
+</a>
         <div class="flex items-center gap-5 text-xl">
             <a href="/panier"><i class="fas fa-shopping-cart cursor-pointer"></i></a>
             <a href="/recherche"><i class="fas fa-search cursor-pointer"></i></a>
@@ -136,12 +140,7 @@ $actualites = [
         @endforeach
 
         <!-- INFO DU JOUR -->
-        <div class="rounded-2xl text-center p-8" style="background:#EADFC7">
-            <h3 class="font-bold text-sm uppercase tracking-widest mb-3" style="color:#3D2314">Info du jour</h3>
-            <p class="text-sm text-gray-600 leading-relaxed max-w-lg mx-auto">
-                Chers clients le nouveau site internet de Blac Joyaux, maroquinerie 100% ivoirienne, vient d'être mis en ligne.
-            </p>
-        </div>
+
 
     </div>
 </section>

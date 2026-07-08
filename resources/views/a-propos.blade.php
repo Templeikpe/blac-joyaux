@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos — Blac Joyaux</title>
+    <title>L'Histoire de Blac Joyaux | Héritage, Artisanat et Élégance Ivoirienne
+</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -18,7 +19,10 @@
         <button id="menuBtn" class="border border-gray-500 w-9 h-9 flex justify-center items-center hover:bg-gray-100 transition">
             <i class="fas fa-bars"></i>
         </button>
-        <a href="/" class="absolute left-1/2 -translate-x-1/2 font-bold text-3xl" style="color:#3D2314">Blac Joyaux</a>
+        <a href="/" class="text-2xl font-extrabold tracking-widest text-black"
+   style="font-family: Arial, sans-serif;">
+    Blac Joyaux
+</a>
         <div class="flex items-center gap-5 text-xl">
             <a href="/panier"><i class="fas fa-shopping-cart cursor-pointer"></i></a>
             <a href="/recherche"><i class="fas fa-search cursor-pointer"></i></a>

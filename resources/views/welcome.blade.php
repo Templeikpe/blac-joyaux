@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blac Joyaux — Maroquinerie Premium Made in CI</title>
+    <title>Blac Joyaux | Maroquinerie Premium Inspirée de l'Héritage Ivoirien
+</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -30,7 +31,10 @@
 <!-- NAVBAR -->
 <nav class="bg-white px-6 py-3 sticky top-0 z-50 shadow-sm">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="/" class="font-bold text-xl tracking-widest" style="font-family:'Playfair Display',serif;color:#3D2314">Blac Joyaux</a>
+        <a href="/" class="text-2xl font-extrabold tracking-widest text-black"
+   style="font-family: Arial, sans-serif;">
+    Blac Joyaux
+</a>
         <div class="hidden md:flex gap-8 text-sm font-medium" style="color:#3D2314">
             <a href="/" class="hover:text-orange-700">Accueil</a>
             <a href="/a-propos" class="hover:text-orange-700">A propos</a>
