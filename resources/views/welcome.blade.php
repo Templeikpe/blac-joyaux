@@ -29,12 +29,14 @@
 <body style="background:#F5ECD7">
 
 <!-- NAVBAR -->
+
+<!-- NAVBAR -->
 <nav class="bg-white px-6 py-3 sticky top-0 z-50 shadow-sm">
     <div class="max-w-7xl mx-auto flex justify-between items-center">
-        <a href="/" class="text-2xl font-extrabold tracking-widest text-black"
-   style="font-family: Arial, sans-serif;">
-    Blac Joyaux
-</a>
+        <button id="menuBtn" class="md:hidden border border-gray-500 w-9 h-9 flex justify-center items-center hover:bg-gray-100 transition rounded" style="color:#3D2314">
+            <i class="fas fa-bars"></i>
+        </button>
+        <a href="/" class="font-bold text-xl tracking-widest" style="font-family:'Playfair Display',serif;color:#3D2314">Blac Joyaux</a>
         <div class="hidden md:flex gap-8 text-sm font-medium" style="color:#3D2314">
             <a href="/" class="hover:text-orange-700">Accueil</a>
             <a href="/a-propos" class="hover:text-orange-700">A propos</a>
@@ -54,6 +56,33 @@
         </div>
     </div>
 </nav>
+
+<!-- MENU LATERAL MOBILE -->
+<aside id="sidebar" class="fixed top-0 left-[-300px] w-72 h-full bg-white shadow-2xl duration-300 z-50">
+    <div class="flex justify-between items-center p-5 border-b">
+        <h2 class="font-bold text-xl">Menu</h2>
+        <button id="closeMenu"><i class="fas fa-times text-xl"></i></button>
+    </div>
+    <nav class="flex flex-col p-6 gap-6 text-lg" style="color:#3D2314">
+        <a href="/">Accueil</a>
+        <a href="/a-propos">A propos</a>
+        <a href="/boutique">Nos Collections</a>
+        <a href="/actualites">Actualité</a>
+        <a href="/contact">Contact</a>
+    </nav>
+</aside>
+<div id="overlay" class="hidden fixed inset-0 bg-black/50 z-40"></div>
+
+<script>
+const menuBtn = document.getElementById('menuBtn');
+const closeMenu = document.getElementById('closeMenu');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+menuBtn.onclick = () => { sidebar.style.left = "0"; overlay.classList.remove("hidden"); }
+closeMenu.onclick = closeSidebar;
+overlay.onclick = closeSidebar;
+function closeSidebar(){ sidebar.style.left="-300px"; overlay.classList.add("hidden"); }
+</script>
 
 <!-- HERO -->
 <section class="hero-bg flex flex-col justify-center items-center text-center px-10 py-20">
