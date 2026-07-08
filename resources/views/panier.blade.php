@@ -8,8 +8,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family:'Poppins',sans-serif; background:#F5ECD7; }
-        .titre { font-family:'Playfair Display',serif; }
+        body { font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
+        .titre { font-family: 'Montserrat', sans-serif; }
     </style>
 </head>
 <body>
@@ -88,14 +88,15 @@
                 <li><a href="/legal" class="hover:text-orange-400">Pages légales</a></li>
             </ul>
         </div>
-        <div>
+         <div>
             <h4 class="font-semibold mb-4 uppercase text-xs tracking-widest" style="color:#E8820C">Réseaux sociaux</h4>
-            <div class="flex gap-3 mb-3 text-lg">
-                <a href="#">📸</a>
-                <a href="#">🎵</a>
-                <a href="#">📘</a>
-                <a href="https://wa.me/2250708771557">💬</a>
-            </div>
+            <ul class="text-gray-300 space-y-2 text-xs">
+                <li><a href="https://www.instagram.com/blacjoyaux?igsh=Z3R6cXFtNDV6a2Ju" class="hover:text-orange-400">📸 Instagram</a></li>
+                <li><a href="https://www.tiktok.com/@blac.joyaux?_r=1&_t=ZS-97dsi1WGBZ1" class="hover:text-orange-400">🎵 TikTok</a></li>
+                <li><a href="https://www.facebook.com/share/195mr1hFGy/" class="hover:text-orange-400">📘 Facebook</a></li>
+                <li><a href="https://wa.me/2250708771557" class="hover:text-orange-400">💬 WhatsApp</a></li>
+            </ul>
+
             <p class="text-xs text-gray-300">
                 <span style="color:#E8820C">Showroom Blac Joyaux</span><br>
                 Côte d'Ivoire – Commune de Cocody<br>

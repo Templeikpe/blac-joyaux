@@ -8,8 +8,8 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family:'Poppins',sans-serif; }
-        .titre { font-family:'Playfair Display',serif; }
+        body {font-family: 'Montserrat', sans-serif; }
+        .titre { font-family: 'Montserrat', sans-serif; }
         .cote-image {
             background-image: linear-gradient(rgba(61,35,20,0.75), rgba(61,35,20,0.75)), url('https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=900&q=80');
             background-size: cover;

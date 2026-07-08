@@ -8,7 +8,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family:'Poppins',sans-serif; background:#F5ECD7; }
+        body { font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
         .titre { font-family:'Playfair Display',serif; }
         .product-card { transition: all 0.3s ease; }
         .product-card:hover { transform: translateY(-4px); }
@@ -60,7 +60,7 @@ $produitsDO = [
         'nom' => 'Cuir Marron',
         'sousTitre' => 'Sac à main - Collection DO',
         'prix' => 50000,
-        'img' => 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80',
+       'img' => asset('img/sac-cui-marron.jpg'),
         'couleur' => 'Marron chaud',
         'description' => "Sac à main en cuir marron élégant de la collection DO, inspiré par l'héritage Boigny. Coloration : Marron chaud. Un classique intemporel alliant tradition et raffinement.",
     ],
@@ -68,7 +68,7 @@ $produitsDO = [
         'nom' => 'Croco Lézard',
         'sousTitre' => 'Sac à main - Collection DO',
         'prix' => 70000,
-        'img' => asset('img/Sac-blac-joyaux-DO-croco-lezard-416x416.jpg'),
+        'img' => asset('img/sacnoirpetit.jpg'),
         'couleur' => 'Marron texturé',
         'description' => "Sac à main façon croco lézard, alliant texture raffinée et élégance intemporelle. Coloration : Marron texturé. Pièce phare de la collection DO.",
     ],
@@ -76,7 +76,7 @@ $produitsDO = [
         'nom' => 'Cuir Marron (avec boucle)',
         'sousTitre' => 'Sac à main - Collection DO',
         'prix' => 50000,
-        'img' => 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&q=80',
+        'img' => asset('img/sac-marron.jpg'),
         'couleur' => 'Marron classique',
         'description' => "Sac à main en cuir marron avec boucle dorée décorative. Coloration : Marron classique. Un détail distinctif pour la collection DO.",
     ],
@@ -85,9 +85,9 @@ $produitsDO = [
 
 <!-- HERO -->
 <section class="relative text-white text-center py-20 px-6"
-         style="background-image:linear-gradient(rgba(61,35,20,0.6),rgba(61,35,20,0.6)),url('{{ asset('img/collection-do.jpg') }}');background-size:cover;background-position:center;min-height:280px">
-    <h1 class="text-4xl font-bold mb-3 titre">Boigny</h1>
-    <p class="text-lg italic text-gray-100">'L'héritage d'un père'</p>
+         style="background-image:linear-gradient(rgba(61,35,20,0.6),rgba(61,35,20,0.6)),url('{{ asset('img/image.png') }}');background-size:cover;background-position:center;min-height:280px">
+    <h1 class="text-4xl font-bold mb-3 titre">DO-DOMINIQUE</h1>
+
 </section>
 
 <!-- GRILLE PRODUITS -->

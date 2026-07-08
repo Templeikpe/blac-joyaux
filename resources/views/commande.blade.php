@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; background:#F5ECD7; }
+        body { font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
         .etape { transition: all 0.3s ease; }
     </style>
 </head>

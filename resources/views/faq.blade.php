@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; background:#F5ECD7; }
+        body { font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
         details summary::-webkit-details-marker { display: none; }
         details[open] summary span { transform: rotate(45deg); }
         details summary span { transition: transform 0.3s ease; display: inline-block; }

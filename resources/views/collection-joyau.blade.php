@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; background:#F5ECD7; }
+        body { font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
         .product-card { transition: all 0.3s ease; }
         .product-card:hover { transform: translateY(-4px); }
         .couleur-btn.active { border-color: #3D2314 !important; transform: scale(1.15); }
@@ -155,12 +155,12 @@
 
             <!-- 5. Blanc / Bleu ciel -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="bleu">
-                <img src="{{ asset('img/Sac-blanc.png') }}" alt="Sac Blanc"
+                <img src="{{ asset('img/Sac.jpg') }}" alt="Sac Blanc"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Bleu ciel avec bijoux doré"
                      data-prix="70000"
                      data-couleur="Bleu ciel"
-                     data-img="{{ asset('img/Sac-blanc.png') }}"
+                     data-img="{{ asset('img/Sac-jpg') }}"
                      data-description="Sac à main en bleu ciel clair avec bijoux dorés. Coloration: Bleu ciel tendre. Une teinte douce et élégante - collection Joyaux de Bla premium.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -209,7 +209,7 @@
 
             <!-- 8. Croco Bleu Ciel -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/Sac.jpg') }}" alt="Sac Croco Bleu"
+                <img src="{{ asset('img/Sac-blanc.png') }}" alt="Sac Croco blanc"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Croco Bleu Ciel petit format"
                      data-prix="70000"
@@ -218,7 +218,7 @@
                      data-description="Sac à main format compact style croco en bleu ciel. Coloration: Bleu ciel. Parfait pour celles qui préfèrent la discrétion - collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
-                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Croco Bleu Ciel (petit format)</p>
+                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Croco Blanc (petit format)</p>
                     <p class="font-bold text-sm" style="color:#3D2314">70.000 CFA</p>
                 </div>
             </div>
@@ -241,49 +241,49 @@
 
             <!-- 10. Vert avec bijoux doré -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/Sac-Blac-Joyaux-Vert-2-416x416.jpg') }}" alt="Sac Vert"
+                <img src="{{ asset('img/poupee.jpeg') }}" alt="Sac sika"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
-                     data-nom="Vert avec bijoux doré"
-                     data-prix="70000"
-                     data-couleur="Vert"
-                     data-img="{{ asset('img/Sac-Blac-Joyaux-Vert-2-416x416.jpg') }}"
-                     data-description="Sac à main façon croco en vert profond avec bijoux dorés. Coloration: Vert émeraude. Un choix audacieux et raffiné de la collection Joyaux de Bla.">
+                     data-nom="Sika"
+                     data-prix="50000"
+                     data-couleur="bleu"
+                     data-img="{{ asset('img/sac-bleu-blac.jpeg') }}"
+                     data-description="Découvrez le sac Sika, une pièce au design raffiné pensée pour sublimer chaque tenue. Son cuir grainé, ses finitions dorées et son foulard signature en font un accessoire élégant, pratique et intemporel.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
-                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Vert avec bijoux doré</p>
-                    <p class="font-bold text-sm" style="color:#3D2314">70.000 CFA</p>
+                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Sika</p>
+                    <p class="font-bold text-sm" style="color:#3D2314">50.000 CFA</p>
                 </div>
             </div>
 
             <!-- 11. Marron avec chaîne dorée -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/sac-marron.jpg') }}" alt="Sac Marron"
+                <img src="{{ asset('img/sac-rouge-bordeau.jpeg') }}" alt="Moaye"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
-                     data-nom="Marron avec chaîne dorée"
-                     data-prix="60000"
-                     data-couleur="Marron"
-                     data-img="{{ asset('img/sac-marron.jpg') }}"
-                     data-description="Sac à main en marron chaleureux avec chaîne dorée. Coloration: Marron cognac. Un intemporel du quotidien - collection Joyaux de Bla.">
+                     data-nom="Moaye"
+                     data-prix="70000"
+                     data-couleur="rouge-bordeau"
+                     data-img="{{ asset('img/sac-rouge-bordeau.jpeg') }}"
+                     data-description="Découvrez le sac Moayé, une pièce au design élégant conçue pour allier caractère et fonctionnalité. Son cuir souple, sa finition raffinée et son grand format en font un compagnon idéal pour le quotidien comme pour les occasions spéciales.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
-                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Marron avec chaîne dorée</p>
-                    <p class="font-bold text-sm" style="color:#3D2314">60.000 CFA</p>
+                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Moaye</p>
+                    <p class="font-bold text-sm" style="color:#3D2314">70.000 CFA</p>
                 </div>
             </div>
 
             <!-- 12. Cuir marron structuré -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/sac-cui-marron.jpg') }}" alt="Sac Cuir Marron"
+                <img src="{{ asset('img/sac-rougeboerdeau.jpeg') }}" alt="Kloleh"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
-                     data-nom="Cuir marron structuré"
-                     data-prix="65000"
-                     data-couleur="Marron"
-                     data-img="{{ asset('img/sac-cui-marron.jpg') }}"
-                     data-description="Sac à main en cuir marron à la coupe structurée. Coloration: Marron cuir. Élégance sobre et robuste - collection Joyaux de Bla.">
+                     data-nom="Kloleh"
+                     data-prix="40000"
+                     data-couleur="rouge"
+                     data-img="{{ asset('img/sac-rougeboerdeau.jpeg') }}"
+                     data-description="Découvrez le portefeuille bandoulière Ashanti, un accessoire 2-en-1 qui allie élégance et praticité. Compact, il protège vos essentiels tout en offrant une organisation optimale pour vous accompagner au quotidien.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
-                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Cuir marron structuré</p>
-                    <p class="font-bold text-sm" style="color:#3D2314">65.000 CFA</p>
+                    <p class="font-bold text-xs mb-1" style="color:#3D2314">Kloleh</p>
+                    <p class="font-bold text-sm" style="color:#3D2314">40.000 CFA</p>
                 </div>
             </div>
 

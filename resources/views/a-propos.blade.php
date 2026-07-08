@@ -48,7 +48,7 @@
         <p class="text-center font-semibold mb-6" style="color:#E8820C">À propos de nous</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
             <div>
-                <p class="text-sm leading-relaxed" style="color:#3D2314">
+                <p class="text-100 leading-relaxed" style="color:#3D2314">
                     <span class="font-bold">Blac Joyaux</span> c'est une Marque de maroquinerie ivoirienne avec savoir réaffirmer féminité la région centrale de la Côte d'Ivoire.<br><br>
                     Son but est de participer à la valorisation du savoir créatif en Côte d'Ivoire et au-delà en proposant des sacs à main made in Côte d'Ivoire, accessibles et qui répondent aux besoins du marché actuel.<br><br>
                     Au quotidien, adoptez Blac Joyaux et donnez une fière allure à votre style.
@@ -56,9 +56,9 @@
             </div>
             <div class="grid grid-cols-2 gap-3">
                 <img src="{{ asset('img/Sac-Blueu.jpg') }}" alt="Sac">
-                <img src="{{ asset('img/Sac-jaune.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/Sacs-blac-joyaux-2.jpg') }}" alt="Sac">
                 <img src="{{ asset('img/Sac-marron.jpg') }}" alt="Sac">
-                <img src="{{ asset('img/Sac-dore.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/collection bla.jpg') }}" alt="Sac">
             </div>
         </div>
     </div>

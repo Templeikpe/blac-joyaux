@@ -8,7 +8,9 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; }
+       body {
+    font-family: 'Montserrat', sans-serif;
+}
         .hero-bg {
             background-image: linear-gradient(rgba(61,35,20,0.65), rgba(61,35,20,0.65)),
                   url('/img/heroaccueil.jpeg');
@@ -93,21 +95,22 @@ $tousLesProduits = [
     ['nom' => 'Croco jaune', 'prix' => 70000, 'img' => asset('img/Sac-jaune.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main style croco en jaune éclatant. Coloration: Jaune vif. Un accent coloré et audacieux - collection Joyaux de Bla."],
     ['nom' => 'Croco Bleu Ciel petit format', 'prix' => 70000, 'img' => asset('img/Sac.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main format compact style croco en bleu ciel. Coloration: Bleu ciel. Parfait pour celles qui préfèrent la discrétion - collection Joyaux de Bla."],
     ['nom' => 'Imprimé peau de serpent', 'prix' => 70000, 'img' => asset('img/Sac-marroncasse.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main avec motif peau de serpent en marron cassé. Coloration: Marron chaud. Sophistiqué et tendance - collection Joyaux de Bla."],
-    ['nom' => 'Vert avec bijoux doré', 'prix' => 70000, 'img' => asset('img/Sac-Blac-Joyaux-Vert-2-416x416.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main façon croco en vert profond avec bijoux dorés. Coloration: Vert émeraude. Un choix audacieux et raffiné de la collection Joyaux de Bla."],
-    ['nom' => 'Marron avec chaîne dorée', 'prix' => 60000, 'img' => asset('img/sac-marron.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main en marron chaleureux avec chaîne dorée. Coloration: Marron cognac. Un intemporel du quotidien - collection Joyaux de Bla."],
-    ['nom' => 'Cuir marron structuré', 'prix' => 65000, 'img' => asset('img/sac-cui-marron.jpg'), 'collection' => 'Joyau de Bla', 'description' => "Sac à main en cuir marron à la coupe structurée. Coloration: Marron cuir. Élégance sobre et robuste - collection Joyaux de Bla."],
+     ['nom' => 'Sika', 'prix' => 50000, 'img' => asset('img/poupee.jpeg'), 'collection' => 'Joyau de Bla', 'description' => "Découvrez le sac Sika, une pièce au design raffiné pensée pour sublimer chaque tenue. Son cuir grainé, ses finitions dorées et son foulard signature en font un accessoire élégant, pratique et intemporel. Coloration: Bleu nuit. Collection Joyaux de Bla."],
+    ['nom' => 'Moayé', 'prix' => 70000, 'img' => asset('img/sac-rouge-bordeau.jpeg'), 'collection' => 'Joyau de Bla', 'description' => "Découvrez le sac Moayé, une pièce au design élégant conçue pour allier caractère et fonctionnalité. Son cuir souple, sa finition raffinée et son grand format en font un compagnon idéal pour le quotidien comme pour les occasions spéciales.
+"],
+    ['nom' => 'Kloleh', 'prix' => 40000, 'img' => asset('img/sac-rougeboerdeau.jpeg'), 'collection' => 'Joyau de Bla', 'description' => "Découvrez le portefeuille bandoulière Ashanti, un accessoire 2-en-1 qui allie élégance et praticité. Compact, il protège vos essentiels tout en offrant une organisation optimale pour vous accompagner au quotidien."],
 
     // --- COLLECTION DO ---
-    ['nom' => 'Sac Cuir Caramel', 'prix' => 60000, 'img' => asset('img/Sac-blac-joyaux-DO-croco-lezard-416x416.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main en cuir caramel chaleureux avec finitions premium. Coloration: Marron caramel. Combinant durabilité et élégance pour la collection DO."],
-    ['nom' => 'Sac Bureau Gold', 'prix' => 85000, 'img' => asset('img/Sac-dore.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main de luxe en doré brillant, parfait pour le bureau. Coloration: Doré lumineux. Un accessoire professionnel et élégant de la collection DO."],
-    ['nom' => 'Croco Lézard', 'prix' => 70000, 'img' => asset('img/Sac-blac-joyaux-DO-croco-lezard-416x416.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main façon croco lézard, alliant texture raffinée et élégance intemporelle. Collection DO."],
+    ['nom' => 'Sac Cuir Caramel', 'prix' => 60000, 'img' => asset('img/Sac-cui-marron.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main en cuir caramel chaleureux avec finitions premium. Coloration: Marron caramel. Combinant durabilité et élégance pour la collection DO."],
+    ['nom' => 'Sac Bureau Gold', 'prix' => 85000, 'img' => asset('img/Sacnoirpetit.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main de luxe en doré brillant, parfait pour le bureau. Coloration: Doré lumineux. Un accessoire professionnel et élégant de la collection DO."],
+    ['nom' => 'Croco Lézard', 'prix' => 70000, 'img' => asset('img/Sac-marron.jpg'), 'collection' => 'Collection DO', 'description' => "Sac à main façon croco lézard, alliant texture raffinée et élégance intemporelle. Collection DO."],
 ];
 ?>
 
 <!-- TOUTES NOS CRÉATIONS -->
 <section class="py-12 px-6" style="background:#F5ECD7">
     <div class="max-w-6xl mx-auto">
-        <h2 class="text-xl font-semibold mb-2" style="color:#3D2314">Des créations inspirées de l'héritage ivoirien pour accompagner votre quotidien.</h2>
+        <h1 class="text-xl font-semibold mb-2" style="color:#3D2314">Des créations inspirées de l'héritage ivoirien pour accompagner votre quotidien.</h1>
         <p class="text-sm text-gray-500 mb-6">Cliquez sur une photo pour voir tous les détails, le prix, et commander.</p>
 
         <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
@@ -151,8 +154,8 @@ $tousLesProduits = [
 </section>
 
 <!-- NOS DEUX COLLECTIONS -->
-<section class="py-12 px-6 bg-white">
-    <div class="max-w-6xl mx-auto">
+<section class="py-12 px-12 bg-white">
+    <div class="max-w-3xl mx-auto">
         <h2 class="text-xl font-semibold text-center mb-8" style="color:#3D2314">Nos deux collections de sacs made in Côte d'Ivoire</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div class="relative overflow-hidden rounded-xl">
@@ -182,11 +185,11 @@ $tousLesProduits = [
 
             <details class="rounded-xl px-5 py-4 cursor-pointer text-white" style="background:#B08968">
                 <summary class="font-semibold text-sm flex justify-between items-center">
-                    Que dois-je faire en cas de perte de mon QR code ?
+                    Pourquoi faire confiance à blac joyaux ?
                     <span>+</span>
                 </summary>
                 <p class="text-xs mt-3 leading-relaxed text-white/90">
-                    Blac Joyaux est une marque ivoirienne de maroquinerie inspirée de la poupée Joyaux de Bla, symbole d'héritage, de transmission et d'élégance.
+                    Parce que chaque sac est conçu avec soin, inspiré du patrimoine ivoirien et fabriqué avec des matériaux de qualité pour vous accompagner durablement..
                 </p>
             </details>
 

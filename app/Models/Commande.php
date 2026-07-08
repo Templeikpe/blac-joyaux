@@ -15,6 +15,7 @@ class Commande extends Model
         'paiement',
         'produits',
         'total',
+        'statut',
     ];
 
     protected $casts = [

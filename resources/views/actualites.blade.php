@@ -5,39 +5,43 @@
 // ============================================================
 $actualites = [
     [
-        'titre' => 'Moayé',
-        'image' => 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80',
-        'description' => "Le Moayé incarne l'alliance entre l'élégance professionnelle et l'héritage ivoirien. Un compagnon du quotidien qui allie discrétion, raffinement et authenticité.",
-        'lien' => '/actualites/moaye',
-        'images' => [
-            asset('img/sac-noir.jpg'),
-            asset('img/sac-dore.jpg'),
-            asset('img/sac-marron.jpg'),
-        ],
-    ],
-    [
-        'titre' => 'Kiolêh',
-        'image' => 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80',
-        'description' => "Kiolêh naît dans un esprit de flamme : un symbole chaleureux du Sud de la Côte d'Ivoire, célébrant l'expression d'une identité authentique.",
-        'sousTitre' => "« Kiolêh par Blac Joyaux : Mother famous, affirme telle sagesse. »",
-        'lien' => '/actualites/kioleh',
-        'images' => [
-            asset('img/sac-jaune.jpg'),
-            asset('img/sac-rouge.png'),
-            asset('img/Sac-Blac-Joyaux-Vert-2-416x416.jpg'),
-        ],
-    ],
-    [
         'titre' => 'Sika',
-        'image' => 'https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&q=80',
-        'description' => "Le Sika incarne l'essence et l'élégance du cuivre, une pièce qui allie hommage artisanal et style intemporel.",
-        'sousTitre' => "« Sika : l'Or véritable, notre héritage. »",
-        'lien' => '/actualites/sika',
-        'images' => [
-            asset('img/Sac-Blac-Joyaux-Dore-1-416x416.jpg'),
-            asset('img/Sac-Blac-Joyaux-Dore-2-768x768.jpg'),
-            asset('img/Sac-Blac-Joyaux-Dore-3.jpg'),
-        ],
+        'image' => asset('img/poupee.jpeg'),
+        'description' => "Sika est une pièce au design raffiné, pensée pour sublimer chaque tenue. Son cuir grainé, ses finitions dorées et son foulard signature en font un accessoire élégant, pratique et intemporel.",
+        'sousTitre' => "« Sika par Blac Joyaux : la douceur du bleu nuit, la signature de l'élégance. »",
+        'lien' => '/fiche-produit?' . http_build_query([
+            'nom' => 'Sika',
+            'prix' => 50000,
+            'img' => asset('img/poupee.jpeg'),
+            'collection' => 'Joyau de Bla',
+            'description' => "Découvrez le sac Sika, une pièce au design raffiné pensée pour sublimer chaque tenue. Son cuir grainé, ses finitions dorées et son foulard signature en font un accessoire élégant, pratique et intemporel. Coloration: Bleu nuit. Collection Joyaux de Bla.",
+        ]),
+    ],
+    [
+        'titre' => 'Moayé',
+        'image' => asset('img/sac-rouge-bordeau.jpeg'),
+        'description' => "Moayé incarne le caractère et la fonctionnalité. Son cuir souple, sa finition raffinée et son grand format en font un compagnon idéal pour le quotidien comme pour les occasions spéciales.",
+        'sousTitre' => "« Moayé : la force du cuir, la liberté du grand format. »",
+        'lien' => '/fiche-produit?' . http_build_query([
+            'nom' => 'Moayé',
+            'prix' => 70000,
+            'img' => asset('img/sac-rouge-bordeau.jpeg'),
+            'collection' => 'Joyau de Bla',
+            'description' => "Découvrez le sac Moayé, une pièce au design élégant conçue pour allier caractère et fonctionnalité. Son cuir souple, sa finition raffinée et son grand format en font un compagnon idéal pour le quotidien comme pour les occasions spéciales.",
+        ]),
+    ],
+    [
+        'titre' => 'Kloleh',
+        'image' => asset('img/sac-rougeboerdeau.jpeg'),
+        'description' => "Kloleh est un portefeuille bandoulière 2-en-1 qui allie élégance et praticité. Compact, il protège vos essentiels tout en offrant une organisation optimale pour vous accompagner au quotidien.",
+        'sousTitre' => "« Kloleh : la praticité du 2-en-1, l'élégance au quotidien. »",
+        'lien' => '/fiche-produit?' . http_build_query([
+            'nom' => 'Kloleh',
+            'prix' => 40000,
+            'img' => asset('img/sac-rougeboerdeau.jpeg'),
+            'collection' => 'Joyau de Bla',
+            'description' => "Découvrez le portefeuille bandoulière Ashanti, un accessoire 2-en-1 qui allie élégance et praticité. Compact, il protège vos essentiels tout en offrant une organisation optimale pour vous accompagner au quotidien.",
+        ]),
     ],
 ];
 ?>
@@ -90,8 +94,8 @@ $actualites = [
 <div id="overlay" class="hidden fixed inset-0 bg-black/50 z-40"></div>
 
 <!-- HERO ACTUALITES -->
-<section class="relative py-24 px-6 text-white text-center"
-         style="background-image:linear-gradient(rgba(61,35,20,0.6),rgba(61,35,20,0.6)),url('{{ asset('img/actualites-hero.jpg') }}');background-size:cover;background-position:center;min-height:280px">
+<section class="relative py-6 px-6 text-white text-center"
+         style="background-image:linear-gradient(rgba(61,35,20,0.6),rgba(61,35,20,0.6)),url('{{ asset('img/ac.jpeg') }}');background-size:cover;background-position:center;min-height:280px">
     <h1 class="text-3xl font-bold mb-4 uppercase tracking-widest titre">Actualités</h1>
     <p class="text-sm text-gray-100 max-w-md mx-auto leading-relaxed">
         Restez informer de toutes les nouvelles actualités concernant votre maroquinerie préférée

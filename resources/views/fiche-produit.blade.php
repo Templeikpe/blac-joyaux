@@ -18,6 +18,7 @@ $pointsForts = [
     'Plusieurs coloris disponibles dans des teintes classiques et tendance',
 ];
 
+
 $matiereFabrication = [
     'Similicuir sélectionné pour sa qualité supérieure et son aspect authentique',
     'La finition avec une bouche en métal chromé ajoute une touche de raffinement',
@@ -34,7 +35,7 @@ $avis = [
 $similaires = [
     ['nom' => 'Rose avec bijoux doré', 'prix' => 50000, 'img' => asset('img/Sac-violet.jpg'), 'collection' => 'Joyau de Bla'],
     ['nom' => 'Noir avec bijoux doré', 'prix' => 50000, 'img' => asset('img/Sac-noir.jpg'), 'collection' => 'Joyau de Bla'],
-    ['nom' => 'Croco Lézard', 'prix' => 70000, 'img' => asset('img/Sac-blac-joyaux-DO-croco-lezard-416x416.jpg'), 'collection' => 'Collection DO'],
+    ['nom' => 'Croco Lézard', 'prix' => 70000, 'img' => asset('img/sac.jpg'), 'collection' => 'Collection DO'],
 ];
 ?>
 <!DOCTYPE html>
@@ -47,8 +48,8 @@ $similaires = [
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
     <style>
-        body { font-family:'Poppins',sans-serif; background:#F5ECD7; }
-        .titre { font-family:'Playfair Display',serif; }
+        body {font-family: 'Montserrat', sans-serif; background:#F5ECD7; }
+        .titre { font-family: 'Montserrat', sans-serif; }
         .miniature.active { border-color:#3D2314 !important; }
         .produit-card { transition: all .3s ease; }
         .produit-card:hover { transform: translateY(-4px); }
