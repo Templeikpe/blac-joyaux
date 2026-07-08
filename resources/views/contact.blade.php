@@ -91,19 +91,19 @@
 
             <!-- Colonne droite : réseaux -->
             <div class="flex flex-col gap-3">
-                <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
+                <a href="https://www.instagram.com/blacjoyaux" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
                     <i class="fab fa-instagram text-lg" style="color:#E1306C"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
-                <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
+                <a href="https://www.tiktok.com/@blac.joyaux" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
                     <i class="fab fa-tiktok text-lg" style="color:#000"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
-                <a href="#" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
+                <a href="https://www.facebook.com/share/195mr1hFGy/" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
                     <i class="fab fa-facebook" style="color:#1877F2"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Blac Joyaux</p>
                 </a>
-                <a href="https://wa.me/2250700775537" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
+                <a href="https://wa.me/2250708771557" target="_blank" class="bg-white rounded-xl p-4 flex items-center gap-3 hover:bg-orange-50 transition">
                     <i class="fab fa-whatsapp text-lg" style="color:#25D366"></i>
                     <p class="text-sm font-medium" style="color:#3D2314">Discutez sur Whatsapp</p>
                 </a>
