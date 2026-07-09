@@ -5,7 +5,7 @@
 // ============================================================
 $nom         = request()->query('nom', 'Sac à main');
 $prix        = (int) request()->query('prix', 50000);
-$img         = request()->query('img', asset('img/Sac-noir.jpg'));
+$img         = request()->query('img', asset('img/sac-noir.jpg'));
 $collection  = request()->query('collection', 'Joyau de Bla');
 $description = request()->query('description', "Découvrez le sac Blac Joyaux, un modèle au design tropical qui allie élégance, praticité et savoir-faire ivoirien dans une pièce unique.");
 $prixFormate = number_format($prix, 0, ',', '.');
@@ -33,8 +33,8 @@ $avis = [
 ];
 
 $similaires = [
-    ['nom' => 'Rose avec bijoux doré', 'prix' => 50000, 'img' => asset('img/Sac-violet.jpg'), 'collection' => 'Joyau de Bla'],
-    ['nom' => 'Noir avec bijoux doré', 'prix' => 50000, 'img' => asset('img/Sac-noir.jpg'), 'collection' => 'Joyau de Bla'],
+    ['nom' => 'Rose avec bijoux doré', 'prix' => 50000, 'img' => asset('img/sac-violet.jpg'), 'collection' => 'Joyau de Bla'],
+    ['nom' => 'Noir avec bijoux doré', 'prix' => 50000, 'img' => asset('img/sac-noir.jpg'), 'collection' => 'Joyau de Bla'],
     ['nom' => 'Croco Lézard', 'prix' => 70000, 'img' => asset('img/sac.jpg'), 'collection' => 'Collection DO'],
 ];
 ?>
