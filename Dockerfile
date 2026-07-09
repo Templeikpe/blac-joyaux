@@ -16,17 +16,11 @@ COPY . .
 RUN composer install --no-interaction --optimize-autoloader --no-dev
 
 RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
+RUN sed -i 's/80/8080/g' /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf
 ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
 
 RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
 
-EXPOSE 80
+EXPOSE 8080
 
-CMD sh -c "\
-    test -f .env || cp .env.example .env; \
-    test -f database/database.sqlite || touch database/database.sqlite; \
-    chown www-data:www-data database/database.sqlite; \
-    php artisan key:generate --force; \
-    php artisan migrate --force; \
-    sed -i \"s/80/\${PORT:-80}/g\" /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf; \
-    apache2-foreground"
+CMD sh -c "test -f .env || cp .env.example .env; test -f database/database.sqlite || touch database/database.sqlite; chown www-data:www-data database/database.sqlite; php artisan key:generate --force; php artisan migrate --force; apache2-foreground"
