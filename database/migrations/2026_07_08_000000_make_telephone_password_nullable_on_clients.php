@@ -9,7 +9,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('clients', function (Blueprint $table) {
-            $table->string('telephone')->nullable()->unique()->change();
+            $table->string('telephone')->nullable()->change();
             $table->string('password')->nullable()->change();
         });
     }
@@ -17,8 +17,8 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('clients', function (Blueprint $table) {
-            $table->string('telephone')->unique()->change();
-            $table->string('password')->change();
+            $table->string('telephone')->nullable(false)->change();
+            $table->string('password')->nullable(false)->change();
         });
     }
 };
