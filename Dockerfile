@@ -1,8 +1,9 @@
-FROM php:8.4-cli
+FROM php:8.4-apache
 
 RUN apt-get update && apt-get install -y \
     git unzip zip libsqlite3-dev libzip-dev \
     && docker-php-ext-install pdo pdo_sqlite zip \
+    && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
@@ -12,9 +13,18 @@ COPY . .
 
 RUN composer install --no-interaction --optimize-autoloader --no-dev
 
+RUN sed -i 's!/var/www/html!/var/www/html/public!g' /etc/apache2/sites-available/000-default.conf
+ENV APACHE_DOCUMENT_ROOT=/var/www/html/public
+
+RUN chown -R www-data:www-data /var/www/html/storage /var/www/html/bootstrap/cache
+
+EXPOSE 80
+
 CMD sh -c "\
     test -f .env || cp .env.example .env; \
     test -f database/database.sqlite || touch database/database.sqlite; \
+    chown www-data:www-data database/database.sqlite; \
     php artisan key:generate --force; \
     php artisan migrate --force; \
-    php artisan serve --host=0.0.0.0 --port=${PORT:-8000}"
+    sed -i \"s/80/\${PORT:-80}/g\" /etc/apache2/ports.conf /etc/apache2/sites-available/000-default.conf; \
+    apache2-foreground"
