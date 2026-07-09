@@ -3,6 +3,8 @@ FROM php:8.4-apache
 RUN apt-get update && apt-get install -y \
     git unzip zip libsqlite3-dev libzip-dev \
     && docker-php-ext-install pdo pdo_sqlite zip \
+    && a2dismod mpm_event 2>/dev/null; a2dismod mpm_worker 2>/dev/null; true \
+    && a2enmod mpm_prefork \
     && a2enmod rewrite \
     && rm -rf /var/lib/apt/lists/*
 
