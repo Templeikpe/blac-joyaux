@@ -160,7 +160,7 @@
                      data-nom="Bleu ciel avec bijoux doré"
                      data-prix="70000"
                      data-couleur="Bleu ciel"
-                     data-img="{{ asset('img/Sac-jpg') }}"
+                     data-img="{{ asset('img/sac.jpg') }}"
                      data-description="Sac à main en bleu ciel clair avec bijoux dorés. Coloration: Bleu ciel tendre. Une teinte douce et élégante - collection Joyaux de Bla premium.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
