@@ -168,3 +168,4 @@ Route::delete('/admin/clients/{client}', [AdminClientController::class, 'supprim
 
 Route::get('/admin/commandes', [AdminCommandeController::class, 'index'])->name('admin.commandes');
 Route::patch('/admin/commandes/{commande}/statut', [AdminCommandeController::class, 'changerStatut'])->name('admin.commandes.statut');
+Route::post('/commande', [CommandeController::class, 'store'])->name('commande.store');
