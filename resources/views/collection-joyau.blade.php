@@ -91,12 +91,12 @@
 
             <!-- 1. Noir -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="noir">
-                <img src="{{ asset('img/Sac-noir.jpg') }}" alt="Sac Noir"
+                <img src="{{ asset('img/sac-noir.jpg') }}" alt="Sac Noir"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Noir avec bijoux doré"
                      data-prix="50000"
                      data-couleur="Noir"
-                     data-img="{{ asset('img/Sac-noir.jpg') }}"
+                     data-img="{{ asset('img/sac-noir.jpg') }}"
                      data-description="Sac à main élégant en noir avec bijoux dorés. Coloration: Noir profond. Un choix sophistiqué de la collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -107,12 +107,12 @@
 
             <!-- 2. Bleu -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="bleu">
-                <img src="{{ asset('img/Sac1-blueu.png') }}" alt="Sac Bleu"
+                <img src="{{ asset('img/sac1-blueu.png') }}" alt="Sac Bleu"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Bleu avec bijoux doré"
                      data-prix="50000"
                      data-couleur="Bleu"
-                     data-img="{{ asset('img/Sac1-blueu.png') }}"
+                     data-img="{{ asset('img/sac1-blueu.png') }}"
                      data-description="Sac à main en bleu vibrant avec bijoux dorés. Coloration: Bleu éclatant. Un design moderne et féminin de la collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -123,12 +123,12 @@
 
             <!-- 3. Doré -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="dore">
-                <img src="{{ asset('img/Sac-dore.jpg') }}" alt="Sac Doré"
+                <img src="{{ asset('img/sac-dore.jpg') }}" alt="Sac Doré"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Doré"
                      data-prix="50000"
                      data-couleur="Doré"
-                     data-img="{{ asset('img/Sac-dore.jpg') }}"
+                     data-img="{{ asset('img/sac-dore.jpg') }}"
                      data-description="Sac à main en doré luxueux avec bijoux assortis. Coloration: Doré brillant. L'éclat parfait pour vos occasions spéciales - collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -139,12 +139,12 @@
 
             <!-- 4. Rouge -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="rouge">
-                <img src="{{ asset('img/Sac-rouge.png') }}" alt="Sac Rouge"
+                <img src="{{ asset('img/sac-rouge.png') }}" alt="Sac Rouge"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Rouge avec bijoux doré"
                      data-prix="50000"
                      data-couleur="Rouge"
-                     data-img="{{ asset('img/Sac-rouge.png') }}"
+                     data-img="{{ asset('img/sac-rouge.png') }}"
                      data-description="Sac à main rouge éclatant avec bijoux dorés. Coloration: Rouge passion. Ravissant et intemporel, parfait pour toute occasion - collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -155,7 +155,7 @@
 
             <!-- 5. Blanc / Bleu ciel -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="bleu">
-                <img src="{{ asset('img/Sac.jpg') }}" alt="Sac Blanc"
+                <img src="{{ asset('img/sac.jpg') }}" alt="Sac Blanc"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Bleu ciel avec bijoux doré"
                      data-prix="70000"
@@ -171,12 +171,12 @@
 
             <!-- 6. Violet / Rose -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm" data-couleur="violet">
-                <img src="{{ asset('img/Sac-violet.jpg') }}" alt="Sac Violet"
+                <img src="{{ asset('img/sac-violet.jpg') }}" alt="Sac Violet"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Rose avec bijoux doré"
                      data-prix="50000"
                      data-couleur="Rose"
-                     data-img="{{ asset('img/Sac-violet.jpg') }}"
+                     data-img="{{ asset('img/sac-violet.jpg') }}"
                      data-description="Sac à main en rose délicat avec bijoux dorés. Coloration: Rose tendre. Féminin et sophistiqué pour les femmes modernes - collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -193,12 +193,12 @@
 
             <!-- 7. Croco jaune -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/Sac-jaune.jpg') }}" alt="Sac Jaune"
+                <img src="{{ asset('img/sac-jaune.jpg') }}" alt="Sac Jaune"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Croco jaune"
                      data-prix="70000"
                      data-couleur="Jaune"
-                     data-img="{{ asset('img/Sac-jaune.jpg') }}"
+                     data-img="{{ asset('img/sac-jaune.jpg') }}"
                      data-description="Sac à main style croco en jaune éclatant. Coloration: Jaune vif. Un accent coloré et audacieux - collection Joyaux de Bla Vous aimerez aussi.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main - Nouvelle version</p>
@@ -209,12 +209,12 @@
 
             <!-- 8. Croco Bleu Ciel -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/Sac-blanc.png') }}" alt="Sac Croco blanc"
+                <img src="{{ asset('img/sac-blanc.png') }}" alt="Sac Croco blanc"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Croco Bleu Ciel petit format"
                      data-prix="70000"
                      data-couleur="Bleu ciel"
-                     data-img="{{ asset('img/Sac.jpg') }}"
+                     data-img="{{ asset('img/sac.jpg') }}"
                      data-description="Sac à main format compact style croco en bleu ciel. Coloration: Bleu ciel. Parfait pour celles qui préfèrent la discrétion - collection Joyaux de Bla.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
@@ -225,12 +225,12 @@
 
             <!-- 9. Imprimé peau de serpent -->
             <div class="product-card bg-white rounded-xl overflow-hidden shadow-sm">
-                <img src="{{ asset('img/Sac-marroncasse.jpg') }}" alt="Sac Serpent"
+                <img src="{{ asset('img/sac-marroncasse.jpg') }}" alt="Sac Serpent"
                      class="w-full h-44 object-cover cursor-pointer produit-img"
                      data-nom="Imprimé peau de serpent"
                      data-prix="70000"
                      data-couleur="Marron"
-                     data-img="{{ asset('img/Sac-marroncasse.jpg') }}"
+                     data-img="{{ asset('img/sac-marroncasse.jpg') }}"
                      data-description="Sac à main avec motif peau de serpent en marron cassé. Coloration: Marron chaud. Sophistiqué et tendance - collection Joyaux de Bla Vous aimerez aussi.">
                 <div class="p-3">
                     <p class="text-xs text-gray-400 mb-1">Sac à main – Nouvelle version</p>
