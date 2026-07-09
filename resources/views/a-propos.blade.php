@@ -59,10 +59,10 @@
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-3">
-                <img src="{{ asset('img/Sac-Blueu.jpg') }}" alt="Sac">
-                <img src="{{ asset('img/Sacs-blac-joyaux-2.jpg') }}" alt="Sac">
-                <img src="{{ asset('img/Sac-marron.jpg') }}" alt="Sac">
-                <img src="{{ asset('img/collection bla.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/sac-blueu.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/sacs-blac-joyaux-2.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/sac-marron.jpg') }}" alt="Sac">
+                <img src="{{ asset('img/Collection Bla.jpg') }}" alt="Sac">
             </div>
         </div>
     </div>
